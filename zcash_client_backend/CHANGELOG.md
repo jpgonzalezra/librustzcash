@@ -18,6 +18,11 @@ workspace.
 - `zcash_client_backend::data_api::testing::{FixedNotes, FixedNotesError}`
   (under the `test-dependencies` feature)
 - `zcash_client_backend::data_api::wallet::input_selection::GreedyInputSelectorError::{RequirementCovered, DustInputsNotGiven, ExcludedNoteSelected, UnrequestedPoolSelected}`
+- `zcash_client_backend::data_api::wallet::propose_fee_included_transfer`
+- `zcash_client_backend::data_api::testing::TestState::propose_fee_included_transfer`
+  (behind `test-dependencies`)
+- `zcash_client_backend::data_api::testing::pool::dsl::TestScenario::propose_fee_included_to`
+  (behind `test-dependencies`)
 
 ### Changed
 - Migrated to `arti-client 0.43`, `fs-mistrust 0.14`.
