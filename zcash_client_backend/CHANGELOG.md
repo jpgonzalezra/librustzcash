@@ -10,6 +10,13 @@ workspace.
 
 ## [Unreleased]
 
+### Added
+- `zcash_client_backend::data_api::wallet::propose_fee_included_transfer`
+- `zcash_client_backend::data_api::testing::TestState::propose_fee_included_transfer`
+  (behind `test-dependencies`)
+- `zcash_client_backend::data_api::testing::pool::dsl::TestScenario::propose_fee_included_to`
+  (behind `test-dependencies`)
+
 ### Fixed
 - `zcash_client_backend::data_api::wallet::input_selection::GreedyInputSelector::propose_transaction`
   now counts the value of the selected transparent inputs in the `available`
